@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/vhdl_stuff/final/loopback_isim_beh.exe" -prj "C:/vhdl_stuff/final/loopback_beh.prj" "work.loopback" 

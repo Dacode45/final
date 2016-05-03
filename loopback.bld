@@ -1,0 +1,48 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc exam1.ucf -p
+xc6slx9-tqg144-3 loopback.ngc loopback.ngd
+
+Reading NGO file "C:/vhdl_stuff/final/loopback.ngc" ...
+Loading design module "ipcore_dir/myram.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "exam1.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification 'TS_1',
+   was traced into DCM_SP instance clkControl/dcm_sp_inst. The following new TNM
+   groups and period specifications were generated at the DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_clkControl_clkfx = PERIOD "clkControl_clkfx" TS_1 /
+   0.416666667 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification 'TS_1',
+   was traced into DCM_SP instance clkControl/dcm_sp_inst. The following new TNM
+   groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_clkControl_clk0 = PERIOD "clkControl_clk0" TS_1 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 208328 kilobytes
+
+Writing NGD file "loopback.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "loopback.bld"...

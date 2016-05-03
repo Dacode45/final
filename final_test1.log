@@ -1,0 +1,783 @@
+restart
+isim force add /loopback/clk_in 1 -radix bin -value 0 -radix bin -time 8333500 fs -repeat 16667 ps
+isim force add /loopback/clk_in 1 -radix bin -value 0 -radix bin -time 8333500 fs -repeat 16667 ps
+isim force add {/loopback/rxf_l} 1 -radix bin -value 0 -radix bin -time 662000 ps -repeat 1324000 ps
+isim force add /loopback/reset_l 0 -radix bin
+isim force add /loopback/reset_l 0 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/reset_l 1 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10 -radix bin
+run 16667 ps
+isim force add /loopback/data 11 -radix bin
+run 16667 ps
+isim force add /loopback/data 100 -radix bin
+run 16667 ps
+isim force add /loopback/data 101 -radix bin
+run 16667 ps
+isim force add /loopback/data 110 -radix bin
+run 16667 ps
+isim force add /loopback/data 111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1001 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1010 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11001 -radix bin
+run 16667 ps
+isim force add /loopback/data 11010 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11110 -radix bin
+run 16667 ps
+isim force add /loopback/data 11111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 100000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 100001 -radix bin
+run 16667 ps
+isim force add /loopback/data 100010 -radix bin
+run 16667 ps
+isim force add /loopback/data 100011 -radix bin
+run 16667 ps
+isim force add /loopback/data 100100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 100101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 100110 -radix bin
+run 16667 ps
+isim force add /loopback/data 100111 -radix bin
+run 16667 ps
+isim force add /loopback/data 101000 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 101001 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 101010 -radix bin
+run 16667 ps
+isim force add /loopback/data 101011 -radix bin
+run 16667 ps
+isim force add /loopback/data 101100 -radix bin
+run 16667 ps
+isim force add /loopback/data 101101 -radix bin
+run 16667 ps
+isim force add /loopback/data 101110 -radix bin
+run 16667 ps
+isim force add /loopback/data 101111 -radix bin
+run 16667 ps
+isim force add /loopback/data 110000 -radix bin
+run 16667 ps
+isim force add /loopback/data 110001 -radix bin
+run 16667 ps
+isim force add /loopback/data 110010 -radix bin
+run 16667 ps
+isim force add /loopback/data 110011 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 110100 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 110101 -radix bin
+run 16667 ps
+isim force add /loopback/data 110110 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 110111 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 111000 -radix bin
+run 16667 ps
+isim force add /loopback/data 111001 -radix bin
+run 16667 ps
+isim force add /loopback/data 111010 -radix bin
+run 16667 ps
+isim force add /loopback/data 111011 -radix bin
+run 16667 ps
+isim force add /loopback/data 111100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 111101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 111110 -radix bin
+run 16667 ps
+isim force add /loopback/data 111111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1000111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1001000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1001001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1001010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1001011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1001100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1001101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1001110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1001111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010011 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1010100 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1010101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1010111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1011110 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1011111 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1100000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100001 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1100010 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1100011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1100111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101000 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1101101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1101110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1101111 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110000 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1110001 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1110010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1110111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1111000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 1111001 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111010 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111011 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111100 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111101 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111110 -radix bin
+run 16667 ps
+isim force add /loopback/data 1111111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000000 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10000001 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10000010 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10000111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001000 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001001 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001010 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001011 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10001100 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10001101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10001111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010000 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010001 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010010 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10010011 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10010100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10010111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10011000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10011001 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011010 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10011111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10100000 -radix bin
+run 16667 ps
+isim force add /loopback/data 10100001 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10100010 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10100011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10100100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10100101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10100110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10100111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101000 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10101001 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10101010 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10101111 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110000 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110001 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10110010 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10110011 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10110111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10111000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10111001 -radix bin
+run 16667 ps
+isim force add /loopback/data 10111010 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10111011 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 10111100 -radix bin
+run 16667 ps
+isim force add /loopback/data 10111101 -radix bin
+run 16667 ps
+isim force add /loopback/data 10111110 -radix bin
+run 16667 ps
+isim force add /loopback/data 10111111 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000000 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000001 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000010 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000011 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000100 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11000101 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11000110 -radix bin
+run 16667 ps
+isim force add /loopback/data 11000111 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001000 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001001 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001010 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001011 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001100 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001101 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001110 -radix bin
+run 16667 ps
+isim force add /loopback/data 11001111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11010000 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11010001 -radix bin
+run 16667 ps
+isim force add /loopback/data 11010010 -radix bin
+run 16667 ps
+isim force add /loopback/data 11010011 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11010100 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11010101 -radix bin
+run 16667 ps
+isim force add /loopback/data 11010110 -radix bin
+run 16667 ps
+isim force add /loopback/data 11010111 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011000 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011001 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011010 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011011 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011100 -radix bin
+run 16667 ps
+isim force add /loopback/data 11011101 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11011110 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11011111 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100000 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100001 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 0 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11100010 -radix bin
+run 16667 ps
+run 16667 ps
+isim force add /loopback/data 11100011 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100100 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100101 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100110 -radix bin
+run 16667 ps
+isim force add /loopback/data 11100111 -radix bin
+run 16667 ps
+isim force add /loopback/rxf_l 1 -radix bin
+isim force add /loopback/data 0 -radix bin
+run 16667 ps

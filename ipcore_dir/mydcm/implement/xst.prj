@@ -1,0 +1,2 @@
+vhdl work ../../mydcm.vhd
+vhdl work ../example_design/mydcm_exdes.vhd

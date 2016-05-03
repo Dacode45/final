@@ -1,0 +1,644 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 26 14:33:50 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+PROHIBIT = SITE "P65";
+PROHIBIT = SITE "P39";
+PROHIBIT = SITE "P70";
+PROHIBIT = SITE "P64";
+PROHIBIT = SITE "P60";
+PROHIBIT = SITE "P74";
+PROHIBIT = SITE "P38";
+PROHIBIT = SITE "P69";
+PROHIBIT = SITE "P144";
+COMP "b0" LOCATE = SITE "P6" LEVEL 1;
+COMP "b1" LOCATE = SITE "P5" LEVEL 1;
+COMP "b2" LOCATE = SITE "P2" LEVEL 1;
+COMP "g0" LOCATE = SITE "P9" LEVEL 1;
+COMP "g1" LOCATE = SITE "P8" LEVEL 1;
+COMP "g2" LOCATE = SITE "P7" LEVEL 1;
+COMP "r0" LOCATE = SITE "P12" LEVEL 1;
+COMP "r1" LOCATE = SITE "P11" LEVEL 1;
+COMP "r2" LOCATE = SITE "P10" LEVEL 1;
+COMP "wdi" LOCATE = SITE "P83" LEVEL 1;
+COMP "oe_l" LOCATE = SITE "P100" LEVEL 1;
+COMP "rd_l" LOCATE = SITE "P98" LEVEL 1;
+COMP "wr_l" LOCATE = SITE "P101" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "P116" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "P117" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "P118" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "P121" LEVEL 1;
+COMP "data<4>" LOCATE = SITE "P137" LEVEL 1;
+COMP "data<5>" LOCATE = SITE "P138" LEVEL 1;
+COMP "data<6>" LOCATE = SITE "P141" LEVEL 1;
+COMP "data<7>" LOCATE = SITE "P142" LEVEL 1;
+COMP "siwua" LOCATE = SITE "P80" LEVEL 1;
+COMP "rxf_l" LOCATE = SITE "P99" LEVEL 1;
+COMP "txe_l" LOCATE = SITE "P102" LEVEL 1;
+COMP "reset_l" LOCATE = SITE "P78" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "P84" LEVEL 1;
+COMP "h_sync" LOCATE = SITE "P33" LEVEL 1;
+COMP "v_sync" LOCATE = SITE "P35" LEVEL 1;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1> = BEL
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1" PINNAME O;
+PIN clkControl/dcm_sp_inst_pins<1> = BEL "clkControl/dcm_sp_inst" PINNAME
+        CLKFB;
+TIMEGRP clkControl_clk0 = BEL "d_reset_meta_l" BEL "d_reset_sync_l" BEL
+        "d_lower_0" BEL "d_lower_1" BEL "d_lower_2" BEL "d_lower_3" BEL
+        "d_lower_4" BEL "d_lower_5" BEL "d_lower_6" BEL "d_lower_7" BEL
+        "d_addr_counter_0" BEL "d_addr_counter_1" BEL "d_addr_counter_2" BEL
+        "d_addr_counter_3" BEL "d_addr_counter_4" BEL "d_addr_counter_5" BEL
+        "d_addr_counter_6" BEL "d_addr_counter_7" BEL "d_addr_counter_8" BEL
+        "d_addr_counter_9" BEL "d_addr_counter_10" BEL "d_addr_counter_11" BEL
+        "d_addr_counter_12" BEL "d_addr_counter_13" BEL "d_addr_counter_14"
+        BEL "d_addr_counter_15" BEL "byte_counter" BEL "state_FSM_FFd7" BEL
+        "state_FSM_FFd2" BEL "state_FSM_FFd10" BEL "state_FSM_FFd9" BEL
+        "state_FSM_FFd8" BEL "state_FSM_FFd6" BEL "state_FSM_FFd5" BEL
+        "state_FSM_FFd4" BEL "state_FSM_FFd3" BEL "state_FSM_FFd1" BEL
+        "state_FSM_FFd13" BEL "watch_dog_counter_0" BEL "watch_dog_counter_1"
+        BEL "state_FSM_FFd14" BEL "state_FSM_FFd12" BEL "state_FSM_FFd11" BEL
+        "d_upper_0" BEL "d_upper_1" BEL "d_upper_2" BEL "d_upper_3" BEL
+        "d_upper_4" BEL "d_upper_5" BEL "d_upper_6" BEL "d_upper_7" BEL
+        "tmp_oe_l_BRB0" BEL "tmp_oe_l_BRB3" BEL "tmp_oe_l_BRB4" BEL
+        "tmp_oe_l_BRB5" BEL "tmp_rd_l_BRB0" BEL "tmp_rd_l_BRB2" BEL
+        "tmp_oe_l_BRB6" BEL "tmp_oe_l_BRB7" BEL "tmp_oe_l_BRB8" BEL
+        "tmp_oe_l_BRB2" BEL "tmp_oe_l_BRB11" BEL "tmp_oe_l_BRB12" BEL
+        "tmp_oe_l_BRB13" PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        BEL "clkControl/clkout1_buf" PIN
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1>" PIN
+        "clkControl/dcm_sp_inst_pins<1>";
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+TIMEGRP v_clk = BEL "tmp_v_sync" BEL "tmp_h_sync" BEL "v_addr_counter_0" BEL
+        "v_addr_counter_1" BEL "v_addr_counter_2" BEL "v_addr_counter_3" BEL
+        "v_addr_counter_4" BEL "v_addr_counter_5" BEL "v_addr_counter_6" BEL
+        "v_addr_counter_7" BEL "v_addr_counter_8" BEL "v_addr_counter_9" BEL
+        "v_addr_counter_10" BEL "v_addr_counter_11" BEL "v_addr_counter_12"
+        BEL "v_addr_counter_13" BEL "v_addr_counter_14" BEL
+        "v_addr_counter_15" BEL "h_counter_1" BEL "h_counter_2" BEL
+        "h_counter_3" BEL "h_counter_4" BEL "h_counter_5" BEL "h_counter_6"
+        BEL "h_counter_7" BEL "h_counter_8" BEL "h_counter_9" BEL
+        "v_counter_0" BEL "v_counter_1" BEL "v_counter_2" BEL "v_counter_3"
+        BEL "v_counter_4" BEL "v_counter_5" BEL "v_counter_6" BEL
+        "v_counter_7" BEL "v_counter_8" BEL "v_counter_9" BEL "rgb_0" BEL
+        "rgb_1" BEL "rgb_2" BEL "rgb_3" BEL "rgb_4" BEL "rgb_5" BEL "rgb_6"
+        BEL "rgb_7" BEL "rgb_8" BEL "Mshreg_v_reset_sync_l" BEL
+        "v_reset_sync_l" BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_0"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_2"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_3"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_4"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>";
+TIMEGRP clkControl_clkfx = BEL "tmp_v_sync" BEL "tmp_h_sync" BEL
+        "v_addr_counter_0" BEL "v_addr_counter_1" BEL "v_addr_counter_2" BEL
+        "v_addr_counter_3" BEL "v_addr_counter_4" BEL "v_addr_counter_5" BEL
+        "v_addr_counter_6" BEL "v_addr_counter_7" BEL "v_addr_counter_8" BEL
+        "v_addr_counter_9" BEL "v_addr_counter_10" BEL "v_addr_counter_11" BEL
+        "v_addr_counter_12" BEL "v_addr_counter_13" BEL "v_addr_counter_14"
+        BEL "v_addr_counter_15" BEL "h_counter_1" BEL "h_counter_2" BEL
+        "h_counter_3" BEL "h_counter_4" BEL "h_counter_5" BEL "h_counter_6"
+        BEL "h_counter_7" BEL "h_counter_8" BEL "h_counter_9" BEL
+        "v_counter_0" BEL "v_counter_1" BEL "v_counter_2" BEL "v_counter_3"
+        BEL "v_counter_4" BEL "v_counter_5" BEL "v_counter_6" BEL
+        "v_counter_7" BEL "v_counter_8" BEL "v_counter_9" BEL
+        "clkControl/clkout2_buf" BEL "rgb_0" BEL "rgb_1" BEL "rgb_2" BEL
+        "rgb_3" BEL "rgb_4" BEL "rgb_5" BEL "rgb_6" BEL "rgb_7" BEL "rgb_8"
+        BEL "Mshreg_v_reset_sync_l" BEL "v_reset_sync_l" BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_0"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_2"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_3"
+        BEL
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_4"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "memory/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.SIMPLE_PRIM18.ram_pins<29>";
+PIN SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0> = BEL "SP6_BUFIO_INSERT_ML_BUFIO2_0"
+        PINNAME DIVCLK;
+PIN clkControl/dcm_sp_inst_pins<3> = BEL "clkControl/dcm_sp_inst" PINNAME
+        CLKIN;
+TIMEGRP clk_in = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
+        "clkControl/dcm_sp_inst_pins<3>";
+TS_1 = PERIOD TIMEGRP "clk_in" 16.666 ns HIGH 50%;
+TS_2 = PERIOD TIMEGRP "v_clk" 40 ns HIGH 50%;
+TS_clkControl_clkfx = PERIOD TIMEGRP "clkControl_clkfx" TS_1 / 0.416666667
+        HIGH 50%;
+TS_clkControl_clk0 = PERIOD TIMEGRP "clkControl_clk0" TS_1 HIGH 50%;
+OFFSET = OUT 5.667 ns AFTER COMP "clk_in";
+OFFSET = IN 9 ns VALID 9.5 ns BEFORE COMP "clk_in";
+SCHEMATIC END;
+

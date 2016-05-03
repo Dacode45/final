@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/vhdl_stuff/final/loopback.xst" -ofn "C:/vhdl_stuff/final/loopback.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc exam1.ucf -p xc6slx9-tqg144-3 loopback.ngc loopback.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o loopback_map.ncd loopback.ngd loopback.pcf 
+par -w -intstyle ise -ol high -xe n -mt off loopback_map.ncd loopback.ncd loopback.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml loopback.twx loopback.ncd -o loopback.twr loopback.pcf -ucf exam1.ucf 
+bitgen -intstyle ise -f loopback.ut loopback.ncd 
